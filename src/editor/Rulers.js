@@ -3,6 +3,8 @@ import SvgCanvas from '@svgedit/svgcanvas'
 
 const { $id, getTypeMap } = SvgCanvas
 
+const COLOR = '#555a65'
+
 /**
  *
  */
@@ -172,6 +174,9 @@ class Rulers {
           label = (label / 1000) + 'K'
         }
 
+        ctx.font = '9px Inter'
+        ctx.fillStyle = COLOR
+
         if (isX) {
           ctx.fillText(label, rulerD + 2, 8)
         } else {
@@ -211,7 +216,7 @@ class Rulers {
         }
         rulerD += bigInt
       }
-      ctx.strokeStyle = '#000'
+      ctx.strokeStyle = COLOR
       ctx.stroke()
     }
   }

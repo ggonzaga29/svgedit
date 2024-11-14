@@ -1,16 +1,40 @@
 :root {
-  --main-bg-color: #72797A;
-  --text-color: #000000;
-  --border-color: #808080;
-  --canvas-bg-color: #B2B2B2;
+  --main-bg-color: #1E2433;
+  --text-color: #FFFFFF;
+  --border-color: #2B313F;
+  --canvas-bg-color: #2B313F;
   --link-color: #19c;
-  --ruler-color: #B2B2B2;
-  --icon-bg-color: #72797A;
+  --ruler-color: #2B313F;
+  --icon-bg-color: #1E2433;
   --icon-bg-color-hover: #2B3C45;
   --input-color: #B2B2B2;
   --orange-color: #f9bc01;
   --global-se-spin-input-width: 82px;
 }
+
+/* Scrollbar Styles */
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background: transparent;
+  position: absolute;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #393e4c;
+}
+
+::-webkit-scrollbar-corner {
+background: transparent;
+}
+
 
 .svg_editor * {
   transform-origin: 0 0;
