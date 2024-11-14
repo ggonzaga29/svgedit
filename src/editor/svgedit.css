@@ -27,7 +27,7 @@
     "left bottom bottom bottom bottom";
   font-size: 8pt;
   background: var(--main-bg-color);
-  font-family: Verdana, Helvetica, Arial;
+  font-family: Inter, Verdana, Helvetica, Arial;
   color: var(--text-color);
   user-select: text;
   width: 100%;
